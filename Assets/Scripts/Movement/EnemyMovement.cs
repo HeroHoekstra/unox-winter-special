@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
-    public Transform player;
     public float moveSpeed;
 
     private CharacterController controller;
+    private GameObject player;
     // Start is called before the first frame update
     void Start() {
         controller = GetComponent<CharacterController>();
+
+        player = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class EnemyMovement : MonoBehaviour {
             Debug.Log("Can't find target or controller");
         }
 
-        Vector3 direction = player.position - transform.position;
+        Vector3 direction = player.transform.position - transform.position;
 
         direction.Normalize();
 
