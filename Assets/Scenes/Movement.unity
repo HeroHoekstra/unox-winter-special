@@ -131,6 +131,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3363547500085246352, guid: d44c7f55087cd0f44a71f05e78f3a867, type: 3}
+      propertyPath: enemies.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3363547500085246352, guid: d44c7f55087cd0f44a71f05e78f3a867, type: 3}
+      propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 2166913691154705676, guid: 6a37a71021de2e447884eb6f61a945a4, type: 3}
     - target: {fileID: 3434865004795720559, guid: d44c7f55087cd0f44a71f05e78f3a867, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
@@ -188,9 +196,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 521232985770311166, guid: 421a71b10fab6b247ba54004472816f5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1396550321203943257, guid: 421a71b10fab6b247ba54004472816f5, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774892224980249647, guid: 421a71b10fab6b247ba54004472816f5, type: 3}
+      propertyPath: melee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304152665975746500, guid: 421a71b10fab6b247ba54004472816f5, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 4895969756294473020, guid: 421a71b10fab6b247ba54004472816f5, type: 3}
       propertyPath: m_LocalPosition.x

@@ -5,9 +5,6 @@ using UnityEngine;
 public class Movement : MonoBehaviour {
     // Values
     public float speed;
-    public float sprintMultiplier;
-    public float maxStamina;
-    public float condition;
     public float dashSpeed;
     public float dashTime;
     public float dashCoolDown;
@@ -16,7 +13,6 @@ public class Movement : MonoBehaviour {
     private CharacterController controller;
     private Collider hitbox;
     private float currentSpeed;
-    private float stamina;
     private bool dash;
 
     // Start is called before the first frame update
@@ -25,7 +21,6 @@ public class Movement : MonoBehaviour {
         hitbox = GetComponent<Collider>();
 
         currentSpeed = speed;
-        stamina = maxStamina;
         dash = false;
     }
 
@@ -42,17 +37,6 @@ public class Movement : MonoBehaviour {
         float speedX = Input.GetAxisRaw("Horizontal");
         float speedY = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(KeyCode.LeftShift) && stamina > 0) {
-            stamina -= condition * Time.deltaTime;
-            currentSpeed = speed * sprintMultiplier;
-            if (stamina < 0) {
-                currentSpeed = speed;
-            }
-        } else if (stamina  < maxStamina) {
-            currentSpeed = speed;
-            stamina += condition / 2 * Time.deltaTime;
-        }
-
         Vector3 movement = new Vector3(speedX, speedY, 0f).normalized;
         Vector3 velocity = movement * currentSpeed;
 
@@ -64,7 +48,6 @@ public class Movement : MonoBehaviour {
         float oldSpeed = currentSpeed;
         currentSpeed = currentSpeed * dashSpeed;
         Physics.IgnoreCollision(controller, hitbox, true);
-        Debug.Log(hitbox);
 
         yield return new WaitForSeconds(dashTime);
 
