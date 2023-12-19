@@ -7,6 +7,7 @@ public class WeaponMovement : MonoBehaviour
     public Transform player;
     public bool melee;
     public float attackTime;
+    public float damage;
 
     private GameObject weapon;
     private BoxCollider2D hitbox;
@@ -51,5 +52,18 @@ public class WeaponMovement : MonoBehaviour
 
     void RangeAttack() {
         Debug.Log("Fire");
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.CompareTag("Enemy")) {
+            EnemyStats es = other.gameObject.GetComponent<EnemyStats>();
+
+            es.health -= damage / es.defense;
+
+            if (es.health <= 0) {
+                Debug.Log(es.health + ", " + other.gameObject);
+                Destroy(other.transform.parent.gameObject);
+            }
+        }
     }
 }

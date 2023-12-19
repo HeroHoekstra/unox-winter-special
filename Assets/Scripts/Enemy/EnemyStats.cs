@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
 {
+    public float maxHealth;
+    public float defense;
+
+    public float health;
     // Start is called before the first frame update
     void Start() {
-        
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.CompareTag("Weapon")) {
-            Debug.Log("ouchie");
-        }
+        health = maxHealth;
     }
 }
