@@ -61,7 +61,6 @@ public class WeaponMovement : MonoBehaviour
             es.health -= damage / es.defense;
 
             if (es.health <= 0) {
-                Debug.Log(es.health + ", " + other.gameObject);
                 Destroy(other.transform.parent.gameObject);
             }
         }

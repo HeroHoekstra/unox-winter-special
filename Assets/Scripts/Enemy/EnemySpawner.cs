@@ -20,7 +20,7 @@ public class EnemySpawner : MonoBehaviour {
             float angle = Random.Range(0f, 360f);
             Vector3 spawnPosition = player.transform.position + Quaternion.Euler(0f, 0f, angle) * new Vector3(spawnRadius, 0f, -10f);
 
-            GameObject enemyToSpawn = enemies[Random.Range(0, enemies.Length - 1)];
+            GameObject enemyToSpawn = enemies[Random.Range(0, enemies.Length)];
             GameObject spawnedEnemy = Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
             spawnedEnemy.transform.parent = transform;
         } else {

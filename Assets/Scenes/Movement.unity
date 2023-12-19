@@ -133,10 +133,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3363547500085246352, guid: d44c7f55087cd0f44a71f05e78f3a867, type: 3}
       propertyPath: enemies.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3363547500085246352, guid: d44c7f55087cd0f44a71f05e78f3a867, type: 3}
       propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 5969016330858878797, guid: f8c2795d167550341b7f4d8f7727bb18, type: 3}
+    - target: {fileID: 3363547500085246352, guid: d44c7f55087cd0f44a71f05e78f3a867, type: 3}
+      propertyPath: enemies.Array.data[1]
       value: 
       objectReference: {fileID: 2166913691154705676, guid: 6a37a71021de2e447884eb6f61a945a4, type: 3}
     - target: {fileID: 3434865004795720559, guid: d44c7f55087cd0f44a71f05e78f3a867, type: 3}
