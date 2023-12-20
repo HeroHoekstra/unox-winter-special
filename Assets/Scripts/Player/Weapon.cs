@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class WeaponMovement : MonoBehaviour
@@ -61,6 +63,9 @@ public class WeaponMovement : MonoBehaviour
             es.health -= damage / es.defense;
 
             if (es.health <= 0) {
+                if(Mathf.Floor(UnityEngine.Random.Range(0f ,es.itemSpawnChance)) == 0) {
+                    Debug.Log("item spawned");
+                }
                 Destroy(other.transform.parent.gameObject);
             }
         }

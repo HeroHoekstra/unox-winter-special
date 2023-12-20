@@ -27,6 +27,7 @@ public class EnemySpawner : MonoBehaviour {
             Debug.Log("No enemies were found");
         }
 
+        
         yield return new WaitForSeconds(spawnSpeed);
 
         spawnSpeed = spawnSpeed > .5f ? spawnSpeed -= Random.Range(0, 0.1f) : spawnSpeed;
