@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Movement : MonoBehaviour {
@@ -41,6 +42,20 @@ public class Movement : MonoBehaviour {
         Vector3 velocity = movement * currentSpeed;
 
         controller.Move(velocity * Time.deltaTime);
+
+        // bool dirX = false;
+
+        // if(speedX > 0) {
+        //     dirX = true;
+        // } else if(speedX < 0) {
+        //     dirX = false;
+        // }
+
+        if(speedX < 0) {
+            transform.localScale = new Vector3(1,1,1);
+        } else if (speedX > 0){
+            transform.localScale = new Vector3(-1,1,1);
+        }
     }
 
     // Dash
