@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1628b7da1d218ff49893030f59e4f421
+guid: ff05e8f3800d7d541a9aa2cdef6e7f3c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: head_accessories_0
+      name: unox guns_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 420
-        width: 302
-        height: 57
+        x: 20
+        y: 35
+        width: 26
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c09bca3ab089b0459f039d216a4b7c0
-      internalID: 2113138367
+      spriteID: ec2b3a71ac83c0a46b1d558ec3ed4040
+      internalID: -156825394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: head_accessories_1
+      name: unox guns_1
       rect:
         serializedVersion: 2
-        x: 430
-        y: 393
-        width: 314
-        height: 351
+        x: 7
+        y: 9
+        width: 40
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,71 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0ed4c48b84840c418a3067528de27cf
-      internalID: 1214123389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: head_accessories_2
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 22
-        width: 460
-        height: 338
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2d8cb36f2226404bad3d9c262a78e0f
-      internalID: -461002103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: head_accessories_3
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 61
-        width: 367
-        height: 303
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69d120b8bc435d84d81070f91b40965c
-      internalID: -1115104483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: head_accessories_4
-      rect:
-        serializedVersion: 2
-        x: 910
-        y: 13
-        width: 371
-        height: 390
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 912d952bb1ac6594f8755b1dc3d2272e
-      internalID: -480526967
+      spriteID: 7cc65d92c06c295448b6d1a456450fce
+      internalID: 1077633542
       vertices: []
       indices: 
       edges: []
@@ -225,11 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      head_accessories_0: 2113138367
-      head_accessories_1: 1214123389
-      head_accessories_2: -461002103
-      head_accessories_3: -1115104483
-      head_accessories_4: -480526967
+      unox guns_0: -156825394
+      unox guns_1: 1077633542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0af860ac8045e0d4e88c200c8dc0e3b8
+guid: bc88b4c499a823143b3da896211630a8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fifi dismembered_0
+      name: dice dismembered_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 893
-        width: 208
-        height: 170
+        x: 38
+        y: 388
+        width: 599
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba2e78172e5176c49a95605a89ded0e2
-      internalID: 1880101080
+      spriteID: fa422bd3c407eca4cb62e67a008cbc12
+      internalID: -1787391917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_1
+      name: dice dismembered_1
       rect:
         serializedVersion: 2
-        x: 218
-        y: 749
-        width: 186
-        height: 318
+        x: 106
+        y: 320
+        width: 223
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58d196e1be66f9b42a26cd19504d1f2a
-      internalID: -1587607035
+      spriteID: d4f6b1997bf83404a909b45750cef5fd
+      internalID: -1601628631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_2
+      name: dice dismembered_2
       rect:
         serializedVersion: 2
-        x: 437
-        y: 724
-        width: 197
-        height: 324
+        x: 376
+        y: 298
+        width: 230
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d55243ebc80b654d8f7b3fa461bcce2
-      internalID: -1107538221
+      spriteID: 8c2f93347c06e8244a3e42468a6530e6
+      internalID: -2087431821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_3
+      name: dice dismembered_3
       rect:
         serializedVersion: 2
-        x: 34
-        y: 626
-        width: 58
-        height: 256
+        x: 104
+        y: 243
+        width: 222
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 350c367d1cb11a345a7993d2faa19946
-      internalID: -102498896
+      spriteID: ddf474b2fb6b910468678fcc5582995b
+      internalID: 1009705085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_4
+      name: dice dismembered_4
       rect:
         serializedVersion: 2
-        x: 131
-        y: 627
-        width: 61
-        height: 256
+        x: 361
+        y: 187
+        width: 229
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bbea17609084fe4ead1cd215dc65830
-      internalID: -813259229
+      spriteID: 8500b37fa4998c547a6293ecd24db763
+      internalID: 612283876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_5
+      name: dice dismembered_5
       rect:
         serializedVersion: 2
-        x: 205
-        y: 373
-        width: 159
-        height: 310
+        x: 109
+        y: 167
+        width: 162
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebd5fe65d6794eb4ebd400058ca0a22a
-      internalID: -1748068107
+      spriteID: ad526b986ae0d1c4b9a230abca1b0fb2
+      internalID: -34747489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_6
+      name: dice dismembered_6
       rect:
         serializedVersion: 2
-        x: 380
-        y: 362
-        width: 153
-        height: 346
+        x: 315
+        y: 120
+        width: 213
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe67952d062fe645915a2e3cea0f646
-      internalID: 1558287810
+      spriteID: fb935e82b96803c44a8ff3917ef1e49a
+      internalID: 2023075035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_7
+      name: dice dismembered_7
       rect:
         serializedVersion: 2
-        x: 571
-        y: 503
-        width: 85
-        height: 223
+        x: 112
+        y: 119
+        width: 163
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b06b148aa3c72ce43bf61b12704f93be
-      internalID: -978394211
+      spriteID: 8cc35e0ab2a37da4493ccb1ccd76596b
+      internalID: -53131829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fifi dismembered_8
+      name: dice dismembered_8
       rect:
         serializedVersion: 2
-        x: 29
-        y: 366
-        width: 50
-        height: 235
+        x: 288
+        y: 15
+        width: 214
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,134 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b638e632ec014649b676b93d0ae8c08
-      internalID: 2048319516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fifi dismembered_9
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 363
-        width: 50
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ddeb870635d5654b8abfdf8a527883b
-      internalID: -1426051139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fifi dismembered_10
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 259
-        width: 91
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35263c144002d904cac27ea11e630935
-      internalID: 332717214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fifi dismembered_11
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 224
-        width: 94
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd9115054c28a2342b22c1165ec6c4db
-      internalID: 2142049546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fifi dismembered_12
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 83
-        width: 374
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7813883d00fd1ec4295e850f614bc591
-      internalID: 1316202943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fifi dismembered_13
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 224
-        width: 100
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 588d201002bb84640a37e80e9ce90126
-      internalID: -1635174624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fifi dismembered_14
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 73
-        width: 370
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c45a88f28b745f149b423bfd56f9a797
-      internalID: 1292674860
+      spriteID: 143ee72506123c64aa7e9ffefe3d2aa5
+      internalID: 1804281576
       vertices: []
       indices: 
       edges: []
@@ -435,21 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fifi dismembered_0: 1880101080
-      fifi dismembered_1: -1587607035
-      fifi dismembered_10: 332717214
-      fifi dismembered_11: 2142049546
-      fifi dismembered_12: 1316202943
-      fifi dismembered_13: -1635174624
-      fifi dismembered_14: 1292674860
-      fifi dismembered_2: -1107538221
-      fifi dismembered_3: -102498896
-      fifi dismembered_4: -813259229
-      fifi dismembered_5: -1748068107
-      fifi dismembered_6: 1558287810
-      fifi dismembered_7: -978394211
-      fifi dismembered_8: 2048319516
-      fifi dismembered_9: -1426051139
+      dice dismembered_0: -1787391917
+      dice dismembered_1: -1601628631
+      dice dismembered_2: -2087431821
+      dice dismembered_3: 1009705085
+      dice dismembered_4: 612283876
+      dice dismembered_5: -34747489
+      dice dismembered_6: 2023075035
+      dice dismembered_7: -53131829
+      dice dismembered_8: 1804281576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
