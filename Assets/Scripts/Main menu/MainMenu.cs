@@ -12,6 +12,10 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        if (Random.Range(0, 5) > 1) {
+            Application.Quit();
+        } else {
+            SceneManager.LoadSceneAsync(1);
+        }
     }
 }
