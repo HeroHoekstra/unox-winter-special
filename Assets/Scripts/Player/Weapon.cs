@@ -11,15 +11,22 @@ public class WeaponMovement : MonoBehaviour
     public float attackTime;
     public float damage;
 
+    public GameObject projectile;
+
     private GameObject weapon;
     private BoxCollider2D hitbox;
+    private bool fired;
 
     // Start is called before the first frame update
     void Start() {
         weapon = GameObject.FindWithTag("Weapon");
 
-        hitbox = GetComponent<BoxCollider2D>();
-        hitbox.enabled = false;
+        if (melee) {
+            hitbox = GetComponent<BoxCollider2D>();
+            hitbox.enabled = false;
+        } else {
+            fired = false;
+        }
     }
 
     // Update is called once per frame
@@ -30,7 +37,7 @@ public class WeaponMovement : MonoBehaviour
             if (melee) {
                 StartCoroutine(MeleeAttack());
             } else {
-                RangeAttack();
+                StartCoroutine(RangeAttack());
             }
         }
     }
@@ -52,8 +59,21 @@ public class WeaponMovement : MonoBehaviour
         hitbox.enabled = false;
     }
 
-    void RangeAttack() {
-        Debug.Log("Fire");
+    IEnumerator RangeAttack() {
+        if (!fired) {
+            GameObject pewpew = Instantiate(projectile, transform.position, Quaternion.identity);
+            MoveProjectile mp = pewpew.GetComponent<MoveProjectile>();
+
+            mp.speed = mp.maxSpeed;
+            mp.gunDirection = transform.rotation.eulerAngles;
+
+            fired = true;
+        
+
+            yield return new WaitForSeconds(attackTime);
+
+            fired = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
