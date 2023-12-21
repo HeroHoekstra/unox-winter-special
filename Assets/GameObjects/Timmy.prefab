@@ -865,6 +865,7 @@ MonoBehaviour:
   damage: 0.5
   critChance: 100
   critMulitplier: 2
+  itemSpawnChance: 4
   health: 0
 --- !u!70 &6046709686917091067
 CapsuleCollider2D:

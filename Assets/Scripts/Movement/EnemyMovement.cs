@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class EnemyMovement : MonoBehaviour {
     public float moveSpeed;
+    public Transform playerTransform;
 
     private CharacterController controller;
     private GameObject player;
@@ -29,5 +31,15 @@ public class EnemyMovement : MonoBehaviour {
         direction.Normalize();
 
         controller.Move(direction * moveSpeed * Time.deltaTime);
+
+        Vector3 newScale = transform.localScale;
+
+        if (player.transform.position.x - transform.position.x >= 0) {
+            //newScale.x *= -1; // Flip the sign of the X scale
+            transform.localScale = new Vector3(-1,1,1);
+        } else {
+            transform.localScale = new Vector3(1,1,1);
+        }
+        
     }
 }
